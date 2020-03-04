@@ -1,4 +1,3 @@
 STEPS TO RUN ALPAGA
 
-copy
-	docker build -t alpaga .
+just simply run "docker-compose up"

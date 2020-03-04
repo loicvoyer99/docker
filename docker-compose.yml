@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+    testphp:
+        build: .
+        ports:
+            - "6001:80"
+        image: testphp
+        volumes:
+            - ./src:/var/www/html

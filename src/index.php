@@ -1,3 +1,5 @@
-<?php
+<?php 
 
-echo "hello world test 4";
+require 'config.php';
+
+echo '<img src="data:image/jpeg;base64,'.$imageData.'">';
